@@ -1,6 +1,7 @@
 # Time Machine Bot
 
-A Silverback bot that tracks hypothetical crypto positions and answers the question "What if I had (not) sold?" 
+A Silverback bot that tracks hypothetical crypto positions and answers the question "What if I had (not) sold?"
+Made by Ninjagod1251
 
 ## Overview
 
