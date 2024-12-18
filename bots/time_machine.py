@@ -59,8 +59,6 @@ def initialize_state(startup_state):
             columns=['timestamp', 'price']
         )
         print(f"Initialized tracking for {token.name}")
-    
-    breakpoint()
 
 @bot.on_(chain.blocks)
 def track_prices(block):
@@ -68,8 +66,6 @@ def track_prices(block):
     try:
         print(f"\n=== Block {block.number} Analysis ===")
         total_current_value = 0
-        
-        breakpoint()
         
         for address, token in bot.state.data.tokens.items():
             try:
