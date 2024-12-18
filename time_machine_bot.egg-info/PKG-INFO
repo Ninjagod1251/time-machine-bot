@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: time-machine-bot
+Version: 0.1.0
+Summary: A Silverback bot for analyzing hypothetical trading scenarios
+Requires-Dist: silverback>=0.2.0
+Requires-Dist: pandas>=2.0.0
