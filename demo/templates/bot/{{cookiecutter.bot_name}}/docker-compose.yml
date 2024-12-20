@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  time-machine:
+    build: .
+    env_file: .env
+    volumes:
+      - ./.ape:/root/.ape  # Persist Ape cache
+    restart: unless-stopped
