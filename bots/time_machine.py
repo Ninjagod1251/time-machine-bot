@@ -2,9 +2,13 @@ from silverback import SilverbackBot
 from ape import Contract, chain
 import pandas as pd
 from decimal import Decimal
+import os
 
 # Initialize bot
 bot = SilverbackBot()
+
+print(os.getenv("WEB3_ALCHEMY_PROJECT_ID"))
+print(os.getenv("ETHERSCAN_API_KEY"))
 
 class TokenConfig:
     def __init__(self, address: str, price_feed: str, decimals: int = 18, name: str = None):
