@@ -1,0 +1,10 @@
+name: time-machine-bot
+
+ethereum:
+  default_network: mainnet
+  mainnet:
+    default_provider: alchemy
+
+plugins:
+  - name: alchemy 
+  - name: etherscan
